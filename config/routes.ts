@@ -25,6 +25,12 @@
 		icon: 'HomeOutlined',
 	},
 	{
+		name: 'Quản lý sản phẩm',
+		path: '/quan-ly-san-pham',
+		icon: 'ShoppingOutlined',
+		component: './QuanLySanpham',
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
