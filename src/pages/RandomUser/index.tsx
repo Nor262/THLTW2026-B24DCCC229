@@ -20,7 +20,7 @@ const RandomUser = () => {
 		setData2(res?.data?.results ?? []);
 		setTotal(res?.data?.count ?? 0);
 	};
-
+ 
 	useEffect(() => {
 		getDataUser();
 		getData();
