@@ -21,8 +21,20 @@
 	{
 		path: '/dashboard',
 		name: 'Dashboard',
-		component: './TrangChu',
+		component: './Dashboard', // Updated to new Dashboard page
 		icon: 'HomeOutlined',
+	},
+	{
+		path: '/products',
+		name: 'Quản lý Sản phẩm',
+		component: './ProductManagement',
+		icon: 'ShoppingOutlined',
+	},
+	{
+		path: '/orders',
+		name: 'Quản lý Đơn hàng',
+		component: './OrderManagement',
+		icon: 'SolutionOutlined',
 	},
 	{
 		path: '/gioi-thieu',
