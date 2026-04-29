@@ -208,6 +208,38 @@ export default [
 		icon: 'ShoppingCartOutlined',
 		component: './OrderManagement',
 	},
+	{
+		path: '/fitness-tracker',
+		name: 'Theo dõi sức khỏe',
+		icon: 'HeartOutlined',
+		routes: [
+			{
+				path: '/fitness-tracker/dashboard',
+				name: 'Dashboard',
+				component: './FitnessTracker/Dashboard',
+			},
+			{
+				path: '/fitness-tracker/workouts',
+				name: 'Nhật ký tập luyện',
+				component: './FitnessTracker/WorkoutDiary',
+			},
+			{
+				path: '/fitness-tracker/metrics',
+				name: 'Chỉ số sức khỏe',
+				component: './FitnessTracker/HealthMetrics',
+			},
+			{
+				path: '/fitness-tracker/goals',
+				name: 'Quản lý mục tiêu',
+				component: './FitnessTracker/GoalManagement',
+			},
+			{
+				path: '/fitness-tracker/exercises',
+				name: 'Thư viện bài tập',
+				component: './FitnessTracker/ExerciseLibrary',
+			},
+		],
+	},
 
 
 	{
