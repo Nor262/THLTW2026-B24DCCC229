@@ -243,6 +243,29 @@ export default [
 
 
 	{
+		path: "/task-manager",
+		name: "Quản lý công việc",
+		icon: "ProjectOutlined",
+		routes: [
+			{
+				path: "/task-manager/dashboard",
+				name: "Dashboard",
+				component: "./TaskManager/Dashboard",
+			},
+			{
+				path: "/task-manager/kanban",
+				name: "Kanban Board",
+				component: "./TaskManager/Kanban",
+			},
+			{
+				path: "/task-manager/list",
+				name: "Danh sách công việc",
+				component: "./TaskManager/TaskList",
+			},
+		],
+	},
+
+	{
 		path: '/notification',
 		routes: [
 			{
